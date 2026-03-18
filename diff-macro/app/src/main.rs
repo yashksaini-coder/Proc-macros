@@ -17,10 +17,10 @@ fn main() {
         age: 21,
     };
 
-    println!("{:?}", a);
+    // println!("{:?}", a);
 
     let diff = a.diff(&b);
-    println!("{:?}", diff);
+    println!("Difference is : {:?}", diff); // Difference is : ["name changed from beautiful bri → Lord subh", "age changed from 28 → 21"]
 }
 
 // what do we want ??
